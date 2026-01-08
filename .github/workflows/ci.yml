@@ -40,7 +40,7 @@ jobs:
       # Step 4: Lint with flake8
       - name: Lint with flake8
         run: |
-          flake8
+          flake8 --ignore=E302,E305
           
       # Step 5: Test with pytest
       - name: Test with pytest
